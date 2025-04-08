@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0'
+}
+
+*{
+    text-decoration: none;
+    
+}
+.navbar {
+    height: auto; 
+    position: fixed; 
+    top: 0; /* Anchors it at the top of the page */
+    left: 0;
+    width: 100%; 
+    background: linear-gradient(to bottom, rgba(45, 45, 45, 1), rgba(45, 45, 45, 0));
+    font-family: 'Times New Roman', Times, serif;
+    padding: 40px 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 1000; 
+}
+.navdiv{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+}
+li {
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 90px;
+}
+
+.title a{
+    font-size: 50px;
+    font-weight: 1000px;
+    color: white;
+    
+}
+
+.info-box {
+    position: absolute; /* or fixed if you want it to stay in place on scroll */
+    top: 1300px;
+    left: 2200px;
+    height: 375px;
+    width: 500px;
+    background-color: rgb(48, 48, 48);
+    color: aliceblue;
+    padding: 20px;
+    z-index: 9999; 
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+
+.Container {
+    position: relative;
+    width:100%;
+    height: 100%;
+    background-color: rgb(246, 229, 255);
+}
+
+.Background {
+    position: fixed;
+    top:0px;
+    right: 9000px;
+}
+
+#Background {
+    position: absolute;
+    width:10000px;
+}
+
+.RegentPark {
+    position: absolute;
+    left: 1250px;
+    top: 0px;
+    transition: transform .2s;
+}
+
+.RegentPark:hover {
+    transform: scale(1.2); 
+}
+
+#RegentPark {
+    position: absolute;
+    width: 1630px;
+}
+
+.Netherlands {
+    Position: absolute;
+    left: 15px;
+    transition: transform .2s;
+}
+
+.Netherlands:hover {
+    transform: scale(1.2); 
+}
+#Netherlands {
+    position: absolute;
+    width: 1900px;
+}
+
+.Chicago {
+    position: absolute;
+    right: 2950px;
+    top: 350px;
+    transition: transform .2s;
+}
+
+.Chicago:hover {
+    transform: scale(1.2); 
+}
+
+#Chicago {
+    position: absolute;
+    width: 2600px;
+}
+
+.Montreal {
+    position: absolute;
+    right: 3100px;
+    top: 800px;
+    transition: transform .2s;
+}
+
+.Montreal:hover {
+    transform: scale(1.2); 
+}
+
+#Montreal {
+    position: absolute;
+    width: 1800px;
+}
+
+.SiliconValley {
+    position: absolute;
+    left: 1400px;
+    top: 700px;
+    transition: transform .2s;
+}
+
+.SiliconValley:hover {
+    transform: scale(1.2); 
+}
+
+#SiliconValley {
+    position: absolute;
+    height: 1200px;
+}
+
+.London {
+    position: absolute;
+    left: 900px;
+    top: 780px;
+    transition: transform .2s;
+}
+
+.London:hover {
+    transform: scale(1.2); 
+}
+
+#London {
+    position: absolute;
+    width: 1000px;
+}
+
+
+/* h1{
+    color: red
+} */
+body {
+    background-color: rgb(161, 208, 252);
+}
+
+/* #nav{
+    height: 200px;
+    width: 100%;
+    background-color: sienna;
+}
+
+#main-content{
+    width: 100%;
+    height: 100%;
+    border: 1px solid lavender;
+} */
