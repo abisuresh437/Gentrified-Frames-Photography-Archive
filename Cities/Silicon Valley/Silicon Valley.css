@@ -3,24 +3,25 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 * {
-  margin: 0;
-  padding: 0'
+    margin: 0;
+    padding: 0'
 }
 
 *{
-  text-decoration: none;
-  
+    text-decoration: none;
+    
 }
 .navbar {
   height: auto; 
-  position: fixed; /* Makes the navbar stay at the top */
-  top: 0; 
+  position: fixed; 
+  top: 0; /* Anchors it at the top of the page */
   left: 0;
   width: 100%; 
-  background: linear-gradient(to bottom, rgba(45, 45, 45, 1), rgba(45, 45, 45, 0)); 
+  background: linear-gradient(to bottom, rgba(45, 45, 45, 1), rgba(45, 45, 45, 0));
   font-family: 'Times New Roman', Times, serif;
-  padding: 40px 50px;
+  padding: 20px 30px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   z-index: 1000; 
 }
@@ -28,6 +29,7 @@
   display: flex; 
   align-items: center; 
   justify-content: space-between;
+  font-family: 'Times New Roman', Times, serif;
 }
 li {
   list-style: none;
@@ -35,16 +37,33 @@ li {
 }
 li a{
   color: white;
-  font-size: 30px;
+  font-size: 16px;
   font-weight: bold;
-  margin-right: 90px;
+  margin-right: 60px;
 }
 
 .title a{
-  font-size: 50px;
-  font-weight: 1000px;
+  font-size: 20px;
+  font-weight: bold;
   color: white;
+  
 }
+
+.description {
+  position: absolute; /* or fixed if you want it to stay in place on scroll */
+  top: 100px;
+  left: 1100px;
+  height: 60px;
+  width: 200px;
+  background-color: rgb(48, 48, 48);
+  color: aliceblue;
+  padding: 10px;
+  z-index: 9999; 
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+}
+
 
 body{
     background-position: 0%;
@@ -56,7 +75,7 @@ body{
 }
 .text-box a{
   text-decoration: none;
-  color: rgb(0, 148, 198);
+  color: rgb(56, 56, 56);
   font-family: 'Poppins', sans-serif;
 }
 .timeline{
@@ -64,6 +83,32 @@ body{
     max-width: 2000px;
     margin: 100px auto;
 }
+
+.circle-link {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+  }
+  
+  .circle-link img {
+    width: 80px;
+    border-radius: 50%;
+  }
+  
+  .circle-text {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: black;
+  }
+
 .container{
     padding:50px 50px;
     position: relative;
@@ -104,7 +149,7 @@ body{
     background: #fff;
     position: relative;
     border-radius: 6px;
-    font-size: 25px;
+    font-size: 16px;
 }
 .left-container{
     left: 0;
@@ -115,9 +160,9 @@ body{
 
 .container img{
     position: absolute;
-    width: 80px;
+    width: 60px;
     border-radius: 50%;
-    right: -41px;
+    right: -31px;
     top: 70px;
     z-index: 10;
 }
@@ -128,7 +173,7 @@ body{
 
 
 .right-container img{
-    left: -39px;
+    left: -29px;
 
 }
 
@@ -175,6 +220,10 @@ body{
     border-right: 15px solid #fff;
     left: -15px;
   }
+
+
+
+
 
 
 .text-box h2{

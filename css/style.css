@@ -15,7 +15,7 @@
     width: 100%; 
     background: linear-gradient(to bottom, rgba(45, 45, 45, 1), rgba(45, 45, 45, 0));
     font-family: 'Times New Roman', Times, serif;
-    padding: 40px 50px;
+    padding: 20px 30px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     z-index: 1000; 
 }
@@ -31,31 +31,31 @@ li {
 }
 li a{
     color: white;
-    font-size: 30px;
+    font-size: 16px;
     font-weight: bold;
-    margin-right: 90px;
+    margin-right: 60px;
 }
 
 .title a{
-    font-size: 50px;
-    font-weight: 1000px;
+    font-size: 20px;
+    font-weight: bold;
     color: white;
     
 }
 
 .info-box {
     position: absolute; /* or fixed if you want it to stay in place on scroll */
-    top: 1300px;
-    left: 2200px;
-    height: 375px;
-    width: 500px;
+    top: 600px;
+    left: 1100px;
+    height: 170px;
+    width: 300px;
     background-color: rgb(48, 48, 48);
     color: aliceblue;
     padding: 20px;
     z-index: 9999; 
     box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
     font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
+    font-size: 16px;
 }
 
 
@@ -69,7 +69,7 @@ li a{
 .Background {
     position: fixed;
     top:0px;
-    right: 9000px;
+    right: 6000px;
 }
 
 #Background {
@@ -79,7 +79,7 @@ li a{
 
 .RegentPark {
     position: absolute;
-    left: 1250px;
+    left: 700px;
     top: 0px;
     transition: transform .2s;
 }
@@ -90,12 +90,12 @@ li a{
 
 #RegentPark {
     position: absolute;
-    width: 1630px;
+    width: 770px;
 }
 
 .Netherlands {
     Position: absolute;
-    left: 15px;
+    left: 50px;
     transition: transform .2s;
 }
 
@@ -104,13 +104,13 @@ li a{
 }
 #Netherlands {
     position: absolute;
-    width: 1900px;
+    width: 900px;
 }
 
 .Chicago {
     position: absolute;
-    right: 2950px;
-    top: 350px;
+    right: 1500px;
+    top: 200px;
     transition: transform .2s;
 }
 
@@ -120,13 +120,13 @@ li a{
 
 #Chicago {
     position: absolute;
-    width: 2600px;
+    width: 1500px;
 }
 
 .Montreal {
     position: absolute;
-    right: 3100px;
-    top: 800px;
+    right: 1650px;
+    top: 350px;
     transition: transform .2s;
 }
 
@@ -136,13 +136,13 @@ li a{
 
 #Montreal {
     position: absolute;
-    width: 1800px;
+    width: 1000px;
 }
 
 .SiliconValley {
     position: absolute;
-    left: 1400px;
-    top: 700px;
+    left: 700px;
+    top: 350px;
     transition: transform .2s;
 }
 
@@ -152,13 +152,13 @@ li a{
 
 #SiliconValley {
     position: absolute;
-    height: 1200px;
+    height: 600px;
 }
 
 .London {
     position: absolute;
-    left: 900px;
-    top: 780px;
+    left: 400px;
+    top: 350px;
     transition: transform .2s;
 }
 
@@ -168,7 +168,7 @@ li a{
 
 #London {
     position: absolute;
-    width: 1000px;
+    width: 550px;
 }
 
 

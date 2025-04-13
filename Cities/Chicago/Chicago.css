@@ -1,8 +1,9 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 * {
     margin: 0;
     padding: 0'
@@ -13,37 +14,54 @@
     
 }
 .navbar {
-    height: auto; 
-    position: fixed; /* Makes the navbar stay at the top */
-    top: 0; 
-    left: 0;
-    width: 100%; 
-    background: linear-gradient(to bottom, rgba(45, 45, 45, 1), rgba(45, 45, 45, 0)); 
-    font-family: 'Times New Roman', Times, serif;
-    padding: 40px 50px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    z-index: 1000; 
+  height: auto; 
+  position: fixed; 
+  top: 0; /* Anchors it at the top of the page */
+  left: 0;
+  width: 100%; 
+  background: linear-gradient(to bottom, rgba(45, 45, 45, 1), rgba(45, 45, 45, 0));
+  font-family: 'Times New Roman', Times, serif;
+  padding: 20px 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  z-index: 1000; 
 }
 .navdiv{
-    display: flex; 
-    align-items: center; 
-    justify-content: space-between;
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between;
+  font-family: 'Times New Roman', Times, serif;
 }
 li {
-    list-style: none;
-    display: inline-block;
+  list-style: none;
+  display: inline-block;
 }
 li a{
-    color: white;
-    font-size: 30px;
-    font-weight: bold;
-    margin-right: 90px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 60px;
 }
 
 .title a{
-    font-size: 50px;
-    font-weight: 1000px;
-    color: white;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  
+}
+
+.description {
+  position: absolute; /* or fixed if you want it to stay in place on scroll */
+  top: 100px;
+  left: 1100px;
+  height: 60px;
+  width: 200px;
+  background-color: rgb(48, 48, 48);
+  color: aliceblue;
+  padding: 10px;
+  z-index: 9999; 
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
 }
 
 
@@ -131,7 +149,7 @@ body{
     background: #fff;
     position: relative;
     border-radius: 6px;
-    font-size: 25px;
+    font-size: 16px;
 }
 .left-container{
     left: 0;
@@ -142,9 +160,9 @@ body{
 
 .container img{
     position: absolute;
-    width: 80px;
+    width: 60px;
     border-radius: 50%;
-    right: -41px;
+    right: -31px;
     top: 70px;
     z-index: 10;
 }
@@ -155,7 +173,7 @@ body{
 
 
 .right-container img{
-    left: -39px;
+    left: -29px;
 
 }
 
